@@ -1,0 +1,9 @@
+{
+	"name": "helathcareAdf",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "4cd73614-4ce8-4d47-b82d-e5c463c91946",
+		"tenantId": "139441d5-d8db-42a2-9163-fd35e7b40835"
+	}
+}
