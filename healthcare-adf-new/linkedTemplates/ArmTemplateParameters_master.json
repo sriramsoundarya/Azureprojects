@@ -1,0 +1,60 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "healthcare-adf-new"
+		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"AzureDatabricks1_accessToken": {
+			"value": ""
+		},
+		"AzureDatabricksDeltaLake1_accessToken": {
+			"value": ""
+		},
+		"AzureSqlDatabase1_password": {
+			"value": ""
+		},
+		"datalake_ls_accountKey": {
+			"value": ""
+		},
+		"sqldatabase_ls_password": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://healthcaresacc.dfs.core.windows.net/"
+		},
+		"AzureDatabricks1_properties_typeProperties_existingClusterId": {
+			"value": "1225-054114-3vy0xg7a"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_server": {
+			"value": "healthcareserver.database.windows.net"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_database": {
+			"value": "@{linkedService().db}"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_userName": {
+			"value": "admin1"
+		},
+		"datalake_ls_properties_typeProperties_url": {
+			"value": "https://healthcaresacc.dfs.core.windows.net/"
+		},
+		"sqldatabase_ls_properties_typeProperties_server": {
+			"value": "healthcareserver.database.windows.net"
+		},
+		"sqldatabase_ls_properties_typeProperties_database": {
+			"value": "@{linkedService().db_name}"
+		},
+		"sqldatabase_ls_properties_typeProperties_userName": {
+			"value": "admin1"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
