@@ -1,5 +1,13 @@
 {
 	"name": "helathcareAdf",
+	"properties": {
+		"globalParameters": {
+			"hello": {
+				"type": "string",
+				"value": "dbname"
+			}
+		}
+	},
 	"location": "centralindia",
 	"identity": {
 		"type": "SystemAssigned",
