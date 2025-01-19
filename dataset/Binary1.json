@@ -10,7 +10,8 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
-				"fileName": "*.txt"
+				"fileName": "*.txt",
+				"fileSystem": "configs"
 			}
 		}
 	}
